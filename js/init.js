@@ -27,7 +27,7 @@ jQuery(document).ready(function(){
 	arlo_tm_totop();
 	arlo_tm_totop_myhide();
 	arlo_tm_animate_text();
-	arlo_tm_popup_blog();
+	//arlo_tm_popup_blog();
 	arlo_tm_popupscroll();
 	arlo_tm_about_animation();
 	arlo_tm_kenburn_slider();
@@ -523,7 +523,7 @@ function arlo_tm_animate_text(){
 // -------------------    POPUP BLOG    ----------------
 // -----------------------------------------------------
 
-function arlo_tm_popup_blog(){
+/*function arlo_tm_popup_blog(){
 	"use strict";
 	var li				= jQuery('.arlo_tm_list_wrap.blog_list .inner_list');
 	var popupBox		= jQuery('#arlo_tm_popup_blog');
@@ -555,7 +555,7 @@ function arlo_tm_popup_blog(){
 		popupInner.html('');
 		return false;
 	});
-}
+}*/
 
 // -----------------------------------------------------
 // -------------    WIDGET MENU SCROLL -----------------

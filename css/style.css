@@ -1500,7 +1500,7 @@ img.svg{
 	font-weight: 600;
 	font-family: "Montserrat";
 }
-.arlo_tm_news_wrap .title_holder h3 a{
+.arlo_tm_news_wrap .title_holder h3 {
 	text-decoration: none;
 	color: #041230;
 	font-size: 22px;

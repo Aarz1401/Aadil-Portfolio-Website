@@ -1,0 +1,73 @@
+.arlo_tm_news_wrap .github_link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #E3872D;
+    font-weight: 600;
+    font-family: "Montserrat";
+    padding: 12px 35px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color:white;
+}
+
+.arlo_tm_news_wrap .read_more :before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    height: 100%;
+    left: -25%;
+    width: 0%;
+    background-color: #041230;
+    transform: skew(50deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+
+
+/* Owl Carousel */
+/* Custom styles for navigation buttons */
+.nav-btn {
+    width: 30px;
+    height: 30px;
+    background-color: #E3872D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+ }
+ 
+ .prev-slide:before, .next-slide:before {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+ }
+ 
+ .prev-slide:before {
+    content: "<";
+ }
+ 
+ .next-slide:before {
+    content: ">";
+ }
+ 
+ /* Additional customization if needed */
+ .owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+ }
+ 
+ .owl-carousel .owl-nav .owl-prev {
+    left: -25px;
+ }
+ 
+ .owl-carousel .owl-nav .owl-next {
+    right: -25px;
+ }
+ 
