@@ -517,6 +517,14 @@ function arlo_tm_animate_text(){
 			startDelay: 1e3,
 			backDelay: 2e3
 		});
+
+	var animateSpan2			= jQuery('.arlo_tm_animation_text_word2');
+		animateSpan2.typed({
+			strings: ["HTML", "CSS" ,"JavaScript", "Python", "Java" ,"Git", "Figma", "React" ],
+			loop: true,
+			startDelay: 1e3,
+			backDelay: 2e3
+		});
 }
 
 // -----------------------------------------------------

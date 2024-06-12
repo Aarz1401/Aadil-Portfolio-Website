@@ -1,7 +1,7 @@
 .arlo_tm_news_wrap .github_link {
     text-decoration: none;
-    color: #fff;
-    background-color: #E3872D;
+    color: #eee;
+    background-color:  #00ADB5;
     font-weight: 600;
     font-family: "Montserrat";
     padding: 12px 35px;
@@ -19,7 +19,7 @@
     height: 100%;
     left: -25%;
     width: 0%;
-    background-color: #041230;
+    background-color: #222831;
     transform: skew(50deg);
     transition-duration: .6s;
     z-index: 1;
@@ -31,7 +31,7 @@
 .nav-btn {
     width: 30px;
     height: 30px;
-    background-color: #E3872D;
+    background-color:  #00ADB5;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@
  }
  
  .prev-slide:before, .next-slide:before {
-    color: #fff;
+    color: #eee;
     font-size: 20px;
     line-height: 30px;
  }
@@ -71,3 +71,36 @@
     right: -25px;
  }
  
+/* Custom styles for skills */
+.skills_icons {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    column-gap:15%;
+    row-gap:20%;
+    margin-bottom: 60px;
+  }
+  
+.skills_icons i {
+    font-size: 4rem;
+    color: #555;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+.skills_icons i:hover {
+    color:  #00ADB5;
+    transform: scale(1.2);
+  }
+  
+/*Animation text 2*/
+.arlo_tm_animation_text_word2{
+	font-weight: 600;
+	line-height: 1;
+	font-family: "Montserrat";
+}
+.arlo_tm_animation_text_word2{color:  #00ADB5;}
+
+
+
