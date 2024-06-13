@@ -1,3 +1,3 @@
-# Arlo-Personal-Portfolio-Resume-Template
-Arlo - Personal  Portfolio  Resume Template
-https://jemes888.github.io/Arlo---Personal-Portfolio-Resume-Template/.
+# Aadil-Personal Portfolio
+Here is the link to my portfolio - 
+https://aarz1401.github.io/Aadil-website/
