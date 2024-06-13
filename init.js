@@ -1,7 +1,7 @@
 /*
- * Copyright (c) 2018 Marketify
- * Author: Marketify
- * This file is made for CURRENT TEMPLATE
+ * Modified : 2024
+ * Original Author: Marketify
+ * Modified by : Aadil Abbasi Chasmawala
 */
 
 
