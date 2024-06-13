@@ -836,25 +836,29 @@
 									<div class="rightbox">
 										<div class="arlo_tm_contact_wrap">
 											<div class="main_input_wrap">
-												<form action="http://frenify.com/" method="post" class="contact_form" id="contact_form">
+												<form method="post" class="contact_form" id="contact_form">
 													<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
 													<div class="empty_notice"><span>Please Fill Required Fields</span></div>
-													<div class="wrap">
-														<input id="name" type="text" placeholder="Your Name">
+													<div class="wrap formGroup">
+														<label for="nameID" class="text">Your Name</label>
+														<input id="nameID" type="text" name="from_name" placeholder="Your Name" class="text" required="">
 													</div>
-													<div class="wrap">
-														<input id="email" type="text" placeholder="Your Email">
+													<div class="wrap formGroup">
+														<label for="email" class="text">Email</label>
+														<input id="email" type="email" name="email" placeholder="Your Email" class="text" required="">
 													</div>
-													<div class="wrap">
-														<textarea id="message" placeholder="Your Message"></textarea>
+													<div class="wrap formGroup">
+														<label for="message" class="text">Message</label>
+														<textarea id="message" name="message" placeholder="Your Message" class="text" rows="4" required=""></textarea>
 													</div>
-													<div class="arlo_tm_button">
-														<a id="send_message" href="#"><span>Send Message</span></a>
+													<div class="arlo_tm_button submit">
+														<button type="submit" id="sendButton" ><span>Send</span></button>
 													</div>
 												</form>
 											</div>
 										</div>
 									</div>
+									
 								</div>
 							</div>
 							<div class="arlo_tm_footer_wrap">
@@ -894,6 +898,13 @@
 <!-- /SCRIPTS -->
 
 <!-- Custom scripts-->
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <script type="text/javascript"> <!--Script (email.min.js library) for sending email-->
+    (function sendEmail() {
+      emailjs.init("tlU9kO8tl_vQFrqKn"); //establisheslink to my email
+   })();
+</script>
 <script> 
 	//Owl carousel
 	$(document).ready(function(){

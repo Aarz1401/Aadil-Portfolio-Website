@@ -784,3 +784,17 @@ function arlo_tm_hamburger(){
 		return false;
 	});
 }
+
+//CUSTOM SCRIPT_ AADIL 
+
+//Code for sending email from form
+document.getElementById('contact_form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm("service_ad4uzxw", "template_ph28jx9", this)
+        .then(function() {
+            alert('Your message has been sent successfully!');
+        }, function(error) {
+            alert('Failed to send the message. Please try again later.');
+        });
+});
