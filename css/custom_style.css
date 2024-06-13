@@ -73,26 +73,49 @@
  
 /* Custom styles for skills */
 .skills_icons {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width:100%;
-    column-gap:15%;
-    row-gap:20%;
+    width: 100%;
+    gap: 10%;
     margin-bottom: 60px;
-  }
-  
-.skills_icons i {
+}
+
+.icon-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.icon-container i {
     font-size: 4rem;
     color: #555;
     transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-.skills_icons i:hover {
-    color:  #00ADB5;
+}
+
+.icon-container:hover i {
+    color: #00ADB5;
     transform: scale(1.2);
-  }
+}
+
+.icon-container::after {
+    content: attr(data-name);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #00ADB5;
+    font-size: 1rem;
+}
+
+.icon-container:hover::after {
+    opacity: 1;
+}
+
+  
   
 /*Animation text 2*/
 .arlo_tm_animation_text_word2{

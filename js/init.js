@@ -520,7 +520,28 @@ function arlo_tm_animate_text(){
 
 	var animateSpan2			= jQuery('.arlo_tm_animation_text_word2');
 		animateSpan2.typed({
-			strings: ["HTML", "CSS" ,"JavaScript", "Python", "Java" ,"Git", "Figma", "React" ],
+			strings:[
+				"HTML",
+				"CSS",
+				"C#",
+				"JavaScript",
+				"Python",
+				"MATLAB",
+				"Java",
+				"Git",
+				"Figma",
+				"C++",
+				"Visual Studio",
+				"Unity",
+				"React",
+				"Photoshop",
+				"Illustrator",
+				"Matplotlib",
+				"Arduino",
+				"Bootstrap",
+				"jQuery",
+				"p5.js"
+			],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
