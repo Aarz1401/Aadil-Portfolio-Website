@@ -103,4 +103,43 @@
 .arlo_tm_animation_text_word2{color:  #00ADB5;}
 
 
+/* Override styles for social wrap in footer box */
+.social_wrap{
+	width: 100%;
+	height: auto;
+	float: left;
+	position: relative;
+	left: -5px;
+	margin-bottom: 10px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
+}
+.social_wrap ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.social_wrap ul li{
+	margin: 0px 10px 0px 0px;
+	display: inline-block;
+}
+.social_wrap ul li:last-child{margin-right: 0px;}
+.social_wrap ul li a{
+	text-decoration: none;
+	color: #fff;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.social_wrap ul li a:hover{color: #00ADB5;}
+
+
 
